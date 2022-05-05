@@ -1,0 +1,9 @@
+.topbar {
+  top: 0px;
+  padding: 19px 16px;
+  background-color: #fff;
+  border-bottom: 1px solid #e7edf1;
+}
+.logo {
+  display: block;
+}

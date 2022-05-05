@@ -1,0 +1,38 @@
+.homepage {
+  height: 100vh;
+}
+.container {
+  padding: 67px 94px;
+  height: calc(100vh - 197px);
+  font-family: HelveticaNeue, Helvetica;
+  background-color: #f9fafb;
+  overflow-y: auto;
+}
+.container::-webkit-scrollbar {
+  display: none;
+}
+.heading {
+  font-size: 44px;
+  font-weight: 900;
+  margin-bottom: 73px;
+  line-height: 75%;
+}
+.card-section {
+  margin: 0px -8px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.filter-section {
+  margin-bottom: 40px;
+}
+.filter-section-heading {
+  font-size: 16px;
+  font-weight: bold;
+  color: #192024;
+  margin-bottom: 23px;
+  line-height: 75%;
+}
+.filter-checkbox-section {
+  display: flex;
+  flex-wrap: wrap;
+}

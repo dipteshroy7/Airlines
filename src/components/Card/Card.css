@@ -1,0 +1,45 @@
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 240px;
+  width: 240px;
+  padding: 0px 30px;
+  border-radius: 8px;
+  margin: 8px;
+  background-color: #fff;
+  border: 1px solid #fff;
+  box-shadow: 0 -1px 4px 0 rgba(25, 32, 36, 0.04),
+    0 3px 6px 0 rgba(25, 32, 36, 0.16);
+}
+.card:hover {
+  border: 1px solid #363f45;
+}
+.airline-logo {
+  height: 32px;
+  width: 32px;
+  margin-right: 18px;
+  pointer-events: none;
+}
+.airline-info {
+  max-width: 190px;
+  font-size: 14px;
+  font-weight: normal;
+  color: #192024;
+  word-wrap: break-word;
+  line-height: 21px;
+  pointer-events: none;
+}
+.airline-name {
+  font-weight: bold;
+}
+.airline-site {
+  color: #5a6872;
+  text-decoration: none;
+}
+.showOnHover {
+  display: none;
+}
+.show {
+  display: block;
+}

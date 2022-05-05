@@ -1,0 +1,17 @@
+.filter-pairs {
+  display: flex;
+  margin-bottom: 8px;
+}
+.filters {
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+  line-height: 20px;
+}
+.filters-label {
+  margin-right: 24px;
+  margin-top: 3px;
+  font-size: 14px;
+  font-weight: normal;
+  color: #192024;
+}
